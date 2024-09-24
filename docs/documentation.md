@@ -12,21 +12,12 @@
 
 ### Commit Standard
 
-#### For Adding New Functions
-+ Format: ***Add [function-name] to [purpose]***
-+ Example: ***Add loadTextFromFile to fetch and display text files***
-  
-#### For Changes to Existing Functions
-+ Format: ***Update [function-name] to [describe change]***
-+ Example: ***Update loadTextFromFile to handle non-200 HTTP responses***
-
-#### For Adding New Test Code
-+ Format: ***Add tests for [function-name] covering [cases]***
-+ Example: ***Add tests for loadTextFromFile covering empty URL and non-existing file***
-
-#### For Changing Existing Test Code
-+ Format: ***Update tests for [function-name] to cover [new case] or [change description]***
-+ Example: ***Update tests for loadTextFromFile to cover 404 response handling***
+| Action                                | Format                                                                             | Example                                                                       |
+| ------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| **For Adding New Functions**          | ***Add [function-name] to [purpose]***                                             | ***Add loadTextFromFile to fetch and display text files***                    |
+| **For Changes to Existing Functions** | ***Update [function-name] to [describe change]***                                  | ***Update loadTextFromFile to handle non-200 HTTP responses***                |
+| **For Adding New Test Code**          | ***Add tests for [function-name] covering [cases]***                               | ***Add tests for loadTextFromFile covering empty URL and non-existing file*** |
+| **For Changing Existing Test Code**   | ***Update tests for [function-name] to cover [new case] or [change description]*** | ***Update tests for loadTextFromFile to cover 404 response handling***        |
 
 ### Commit Often, But with Meaning
 + **Small, Frequent** Commits: Aim to commit changes frequently but keep them small and focused. Each commit should represent a single, logical change or addition to the project (e.g., adding a feature, fixing a bug, or refactoring code).
