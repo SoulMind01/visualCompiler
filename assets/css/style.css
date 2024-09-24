@@ -1,0 +1,35 @@
+.page
+{
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 50px 1fr;
+  /* 50px for title, remaining space for content */
+}
+
+.page__title
+{
+  background-color: antiquewhite;
+}
+
+.page__content
+{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: aqua;
+}
+
+.content__section--syntax
+{
+  background-color: beige;
+}
+
+.content__section--code
+{
+  background-color: bisque;
+}
+
+.content__section--target
+{
+  background-color: blanchedalmond;
+}
